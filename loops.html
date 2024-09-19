@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Loops</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <a href="index.html"><img src="goback.png" height="70px" width="50px" align="left"
+            style="margin-top: 1.2rem;"></a>
+        <h1>Understanding JavaScript Loops</h1>
+    </header>
+
+    <section>
+        <h1>Introduction</h1>
+        <ul>
+            <li>Loops are an essential part of programming that allow you to repeat code without having to write it
+                multiple times. In JavaScript, there are several types of loops, each serving different use cases.</li>
+        </ul>
+    </section>
+
+    <section>
+        <h1>For Loop</h1>
+        <ul>
+            <li>The for loop is commonly used when you know the number of iterations in advance. It consists of three
+                parts: initialization, condition, and increment.</li>
+        </ul><br>
+        <pre>
+<code>for (let i = 0; i < 5; i++) {
+    console.log(i);
+}</code>
+            </pre>
+        <li>This loop will print numbers from 0 to 4.</li>
+    </section>
+
+    <section>
+        <h1>While Loop</h1>
+        <ul>
+            <li>The while loop repeats as long as the specified condition is true. Be careful, though—if the condition
+                never becomes false, you'll create an infinite loop!</li>
+        </ul><br>
+        <pre>
+<code>let i = 0;
+while (i < 5) {
+    console.log(i);
+    i++;
+}</code>
+            </pre>
+        This loop will also print numbers from 0 to 4.
+    </section>
+
+    <section>
+        <h1>Do-While Loop</h1>
+        <ul>
+            <li>The do-while loop is similar to the while loop, but it guarantees that the code inside the loop will run at least once.</li>
+        <br>
+        <pre>
+<code>let i = 0;
+do {
+    console.log(i);
+    i++;
+} while (i < 5);</code>
+            </pre>
+        <li>This loop will print numbers from 0 to 4 as well.</li>
+    </ul>
+    </section>
+    <section>
+        <h1>Example</h1>
+        <img src="exampleloop.png" height="500px" width="600px"><br><h3> This is an example of loops.</h3><br>
+        <img src="outputloop.png" height="400px" width="600px"><h3>This is the output of the code.</h3>
+    </section>
+    <footer>
+        <p style="font-size: 18px;">With lots of love and code! || &copy; Khanak Korotania. All Rights Reserved.</p>
+    </footer>
+</body>
+
+</html>

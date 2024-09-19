@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<title>Objects and Arrays</title>
+<link rel="stylesheet" href="style.css">
+<link rel="icon" type="image/x-icon" href="favicon.ico">
+
+</html>
+
+<body>
+    <header>
+        <a href="index.html"><img src="goback.png" height="70px" width="50px" align="left"
+                style="margin-top: 1.2rem;"></a>
+        <h1>Objects and Arrays</h1>
+    </header>
+    <section>
+        <h1>Introduction</h1>
+        An object is a collection of key-value pairs. It’s like a real-world object that has properties. For example,<br> a car object could have properties like color, make, and year.<br><br>
+        <img src="exampleobject.png">
+    </section>
+    <section>
+        <h1>JavaScript Objects</h1>
+    <ul>
+        <li>Objects are collections of <em>key-value pairs</em>.</li>
+        <li>Example:
+            <pre><code>let car = { color: "red", make: "Toyota", year: 2022 };</code></pre>
+        </li>
+        <li>Access object properties using dot notation (<code>car.color</code>) or bracket notation (<code>car["make"]</code>).</li>
+        <li>Modify properties or add new ones like this:
+            <pre><code>car.model = "Corolla";</code></pre>
+        </li>
+        <li>Objects can contain functions, called methods:
+            <pre><code>
+let person = {
+    firstName: "John",
+    lastName: "Doe",
+    fullName: function() {
+        return this.firstName + " " + this.lastName;
+    }
+};</code></pre>
+        </li>
+    </ul>
+    </section>
+    <section>
+        <h1>JavaScript Arrays</h1>
+    <ul>
+        <li>Arrays are ordered lists of values.</li>
+        <li>Example:
+            <pre><code>let colors = ["red", "green", "blue"];</code></pre>
+        </li>
+        <li>Access array elements using their index:
+            <pre><code>console.log(colors[0]); // Output: "red"</code></pre>
+        </li>
+        <li>Add new elements using <code>push()</code>:
+            <pre><code>colors.push("yellow"); // Adds "yellow" to the end</code></pre>
+        </li>
+        <li>Arrays can store any data type, even other arrays or objects!</li>
+        <li>Example of a mixed array:
+            <pre><code>let mixedArray = ["hello", 42, { key: "value" }, [1, 2, 3]];</code></pre>
+        </li>
+    </ul>
+    </section>
+    <section>
+        <h1>Example</h1>
+        <img src="exampleoarray.png"><br>
+        <p style="font-size: 10px;">(example generated from ChatGPT)</p>
+    </section>
+    <footer>
+        <p style="font-size: 18px;">With lots of love and code! || &copy; Khanak Korotania. All Rights Reserved.</p>
+    </footer>
+
+</body>
